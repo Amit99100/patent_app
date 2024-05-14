@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Innovation Hub</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Baskervville&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Open+Sans:ital,wght@0,300;1,300&family=PT+Serif&family=Roboto:wght@300&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="forms.css">
+    <link rel="stylesheet" href="frontpage.css">
+    <link rel="stylesheet" href="cost.css">
+    <link rel="stylesheet" href="topheader.css">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+
+<body>
+
+
+    <!-- fixed header for contact info starts   -->
+    <div id="fixedHeader">
+        <div class="contact-info">
+            <div>
+                Email: support@.com | &nbsp&nbsp
+            </div>
+
+
+            <div>
+                Phone: +91 XXXXXXXXXX
+            </div>
+
+
+        </div>
+        <div class="user-actions">
+            <a href="login.html"> Customer Login |</a>
+            <a href="signup.html">Sign Up</a>
+            <a href="newindex.html">Sign Up</a>
+        </div>
+    </div>
+    <!-- fixed header for contact info ends   -->
+
+    <hr>
+    <hr>
+    <!-- Navbar Starts  -->
+    <div class="navbar">
+        <div class="navbar-logo">
+            <img src="logo.png" alt="Logo">
+        </div>
+        <div class="navbar-options">
+            <div class="dropdown">
+                <a href="#" class="navbar-option" class="text-slate-700 dark:text-slate-500">
+                    Patent 🔽</a>
+                <div class="dropdown-content">
+                    <a href="#">Patent Filing</a>
+                    <a href="#">a</a>
+                    <a href="#">Suboption 1.3</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <a href="#" class="navbar-option">What to Patent🔽</a>
+                <div class="dropdown-content">
+                    <a href="#">Suboption 2.1</a>
+                    <a href="#">Suboption 2.2</a>
+                    <a href="#">Suboption 2.3</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <a href="#" class="navbar-option">Get Free Help🔽</a>
+                <div class="dropdown-content">
+                    <a href="#">Suboption 3.1</a>
+                    <a href="#">Suboption 3.2</a>
+                    <a href="#">Suboption 3.3</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <a href="#" class="navbar-option">About Us🔽</a>
+                <div class="dropdown-content">
+                    <a href="#">Suboption 4.1</a>
+                    <a href="#">Suboption 4.2</a>
+                    <a href="#">Suboption 4.3</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Navbar Starts  -->
+    <hr>
+    <hr>
+    <!-- front page  -->
+    <div class="main-container">
+        <div class="content">
+
+
+            <div class="left-content">
+                <h1>Transforming Ideas into Assets</h1>
+                <h2 style="font-weight: bolder;">Your Path to Patent Success and Product Perfection</h2>
+                <p>From idea to patent, our experts are here to guide you every step of the way.</p>
+            </div>
+
+
+            <div class="right-content">
+                <img style="width: 100vw ; height: 100%;;" src="main_back.svg" alt="Big Logo">
+            </div>
+
+
+        </div>
+    </div>
+    <!-- front Ends   -->
+
+
+    <!-- ******************************************************************* -->
+    <!-- forms  to fill for the person  -->
+    <hr>
+    <hr>
+    <div class="form_heading">
+        <h1 style="font-size: 200%;">Maximize Your IP Impact. Fuel Endless Innovation.</h1>
+    </div>
+    <form id="quoteForm">
+        <h1 style="font-size: 150% ; color: blue;">Get Started </h1>
+        <br><br>
+
+
+
+        <label for="name">Enter Your Name *</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="organization">Your Organization Name *</label>
+        <input type="text" id="organization" name="organization" required>
+
+        <label for="email">Your Email ID *</label>
+        <input type="email" id="email" name="email" required>
+
+
+
+
+
+
+        <label for="contact">Enter Contact Number</label>
+        <input type="tel" id="contact" name="contact">
+
+        <label for="services">Select Required Services</label>
+        <select id="services" name="services">
+            <option value="Supercharge IP">Patent Filing</option>
+            <option value="Unleash Innovation">Patent Figuring</option>
+            <!-- Add more options as needed -->
+        </select>
+
+        <label for="needs">Describe your IP business needs</label>
+        <textarea id="needs" name="needs"></textarea>
+
+        <button type="submit">Submit</button>
+    </form>
+
+
+
+    <!-- Forms ends here .  -->
+
+    <hr>
+    <hr>
+
+    <!-- another calcualtor  start here  -->
+
+    <div class="calculator-container">
+        <div class="form_heading">
+            <h1 style="font-size: 200%;">Patent Cost Calculator for Patent Filing.</h1>
+        </div>
+        <form id="patentCalculatorForm">
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="name">Name *</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="userType">Who are you? *</label>
+                    <select id="userType" name="userType" required>
+                        <option value="Startup">Startup</option>
+                        <option value="Individual">Individual</option>
+                        <option value="SME">SME</option>
+                        <option value="Company">Company</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="patentSearch">Do you want to do a Patent Search? *</label>
+                    <select id="patentSearch" name="patentSearch" required>
+                        <option value="Yes">Yes</option>
+                        <option value="No">No</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="city">City *</label>
+                    <select id="city" name="city" required>
+                        <option value="Quick Search">Quick Search</option>
+                        <option value="Extensive Search">Extensive Search</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="email">Email ID *</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="patentType">Type of Patent *</label>
+                    <select id="patentType" name="patentType" required>
+                        <option value="Provisional Patent">Provisional Patent</option>
+                        <option value="Complete Patent">Complete Patent</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="patentCountry">Countries for Patent Filing *</label>
+                    <select id="patentCountry" name="patentCountry">
+                        <option value="India">India</option>
+                        <option value="USA">USA</option>
+                        <!-- <option value="PCT/International">PCT/International</option> -->
+                        <option value="Others">Others</option>
+                    </select>
+                </div>
+            </div>
+
+            <!-- <p>Total Professional Fee: <span id="totalFee">Rs. 0</span></p>
+            <p>Excluding GST @18%</p> -->
+
+            <button type="submit">Submit</button>
+        </form>
+        <!-- <p>Disclaimer: Kindly note, the above pricing is only for approximate estimation of charges. However, the exact
+            costing may differ depending on the requirement.</p> -->
+    </div>
+    <!-- another calcualtor  end here  -->
+    <hr>
+    <hr>
+    <!-- footer section  -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>About Us</h3>
+                    <ul>
+                        <li></li>
+                        <li>Engagement Models</li>
+                        <li>Information Security</li>
+                        <li>Events & Media</li>
+                        <li>Careers</li>
+                        <li>Privacy</li>
+                        <li>Terms</li>
+                        <li>Sustainability</li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact Us</h3>
+                    <ul>
+                        <li>Contact Information</li>
+                        <li>Support</li>
+                        <li>Feedback</li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>IP Services</h3>
+                    <ul>
+                        <li>Patent Creation</li>
+                        <li>Patent Search & Analytics</li>
+                        <li>IP Protection</li>
+                        <li>Patent Strategy </li>
+                        <li>Explore all IP Services</li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Customers</h3>
+                    <ul>
+                        <li>Corporations & MNCs</li>
+                        <li>Patent Attorneys</li>
+                        <li>Startups & Small Businesses</li>
+                        <li>University Technology Departments</li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Patent Insights</h3>
+                    <ul>
+                        <li>The Ultimate Patent Guide</li>
+                        <li>Patent FAQs</li>
+                        <li>Patent Blogs & Insights</li>
+                        <li>Patent News Box</li>
+                        <li>Patent & Scientific Databases</li>
+                        <li>Must attend IP Events</li>
+                        <li>IP & Patent Associations</li>
+                        <li>World IP Day</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <!-- footer section Ends here   -->
+
+
+    <!--What is that   -->
+
+    <!--What is that   -->
+
+
+    <!-- Javascript logics added here  -->
+
+
+    <!-- regestration webste new 2nd one  -->
+
+    <script src="main.js"></script>
+</body>
+
+</html>

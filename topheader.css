@@ -1,0 +1,30 @@
+#fixedHeader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  font-size: small;
+  padding: 10px 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: Add shadow */
+  z-index: 1000; /* Make sure it's above other content */
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  float: left;
+}
+
+.user-actions {
+  float: right;
+}
+
+.user-actions a {
+  margin-left: 10px;
+  color: #007bff; /* Adjust link color as needed */
+}
+
+.user-actions a:hover {
+  text-decoration: underline;
+}

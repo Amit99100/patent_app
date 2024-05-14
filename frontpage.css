@@ -1,0 +1,30 @@
+/* Content container */
+.content {
+  display: flex;
+
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  max-width: 100%; /* Adjust as needed */
+  padding: 10px 10px;
+  width: 100%;
+  margin: 10px;
+}
+
+/* Left content */
+.left-content {
+  max-width: 50%;
+  color: #fff; /* Text color */
+}
+.left-content h1 {
+  font-weight: 600;
+  font-size: 3vw;
+
+  border-radius: 0%;
+}
+
+/* Right content */
+.right-content {
+  max-width: 50%;
+  height: auto;
+}
