@@ -48,7 +48,7 @@ input[type="email"]:focus,
 input[type="tel"]:focus,
 select:focus,
 textarea:focus {
-  border-color: #4caf50;
+  border-color: blue;
   outline: none;
 }
 
@@ -56,7 +56,8 @@ textarea:focus {
 button[type="submit"] {
   width: 100%;
   padding: 10px;
-  background-color: #4caf50;
+  border-color: blue;
+  background-color: blue;
   color: white;
   border: none;
   border-radius: 5px;
@@ -66,7 +67,8 @@ button[type="submit"] {
 
 /* Style submit button on hover */
 button[type="submit"]:hover {
-  background-color: #45a049;
+  border-color: rgb(197, 54, 85);
+  background-color: rgb(27, 114, 185);
 }
 
 .form_heading {
